@@ -9,6 +9,10 @@
     "url": "https://danishshakeel.me"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danish17/localization-manager-vscode.git"
+  },
   "icon": "assets/256x256.png",
   "engines": {
     "vscode": "^1.96.0"

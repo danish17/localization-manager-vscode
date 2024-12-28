@@ -1,19 +1,28 @@
-<center>
+<h1 align="center">
 <img src="https://danishshakeel.me/wp-content/uploads/2024/12/512x512.png" alt="Localization Manager is a VS Code extension that provides intelligent autocompletion for translation" height="64" width="64">
+<br>
+Localization Manager
+<br>
+<img src="https://github.com/danish17/localization-manager-vscode/actions/workflows/ci.yml/badge.svg?branch=main">
+</h1>
 
-# Localization Manager
-![VS Code CI](https://github.com/danish17/localization-manager-vscode/actions/workflows/ci.yml/badge.svg)
-## VS Code extension that provides intelligent autocompletion for translation keys and previews of translations in your code.
+<p align="center">
+VS Code extension that provides intelligent autocompletion for translation keys and previews of translations in your code.
+</p>
 
-<img src="https://github.com/amannn/next-intl/raw/main/media/logo-dark-mode.svg" height="48">
-</center>
+<p align="center">
+<strong>Supports</strong>
+<br>
+<img src="https://github.com/amannn/next-intl/raw/main/media/logo.png" height="32">
+</p>
+
 
 ## Features
-- Smart Autocompletion: Get suggestions for translation keys while typing `t("")`
-- Context-Aware: Automatically detects translation context from `useTranslation()` calls
-- Translation Preview: Hover over translation keys to see their values
-- Dynamic Updates: Automatically refreshes when translation files change
-- Support for Multiple Formats: Works with nested JSON structures and arrays
+- 🔍 Smart Autocompletion: Get suggestions for translation keys while typing t("")
+- 🧠 Context-Aware: Automatically detects translation context from useTranslation() calls
+- 👁️ Translation Preview: Hover over translation keys to see their values
+- 🔄 Dynamic Updates: Automatically refreshes when translation files change
+- 📦 Support for Multiple Formats: Works with nested JSON structures and arrays
 
 ## Installation
 
