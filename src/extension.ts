@@ -91,6 +91,13 @@ export function activate(context: vscode.ExtensionContext) {
 		})
 	);
 
+	// Add refreshTranslationCache as command for tests
+	const refreshCommand = vscode.commands.registerCommand('l10n-manager.refreshCache', () => {
+		return refreshTranslationCache();
+	});
+
+	context.subscriptions.push(refreshCommand);
+
 	// Update your existing subscriptions
 	context.subscriptions.push(setSourceFiles, showSourceFiles);
 	context.subscriptions.push(setSourceFiles, showSourceFiles);

@@ -21,6 +21,10 @@
       {
         "command": "l10n-manager.setSourceFiles",
         "title": "L10n: Set Translation Source Files"
+      },
+      {
+        "command": "l10n-manager.refreshCache",
+        "title": "L10n: Refresh Translation Cache"
       }
     ],
     "configuration": {
@@ -46,7 +50,7 @@
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "npm run compile-tests && npm run compile && npm run lint",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test --timeout=10000"
   },
   "devDependencies": {
     "@types/vscode": "^1.96.0",
