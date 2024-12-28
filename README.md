@@ -1,71 +1,32 @@
-# intell10n README
+<center>
+<img src="https://danishshakeel.me/wp-content/uploads/2024/12/512x512.png" alt="Localization Manager is a VS Code extension that provides intelligent autocompletion for translation" height="64" width="64">
 
-This is the README for your extension "intell10n". After writing up a brief description, we recommend including the following sections.
+# Localization Manager
+![VS Code CI](https://github.com/danish17/localization-manager-vscode/actions/workflows/ci.yml/badge.svg)
+## VS Code extension that provides intelligent autocompletion for translation keys and previews of translations in your code.
+
+<img src="https://github.com/amannn/next-intl/raw/main/media/logo-dark-mode.svg" height="48">
+</center>
 
 ## Features
+- Smart Autocompletion: Get suggestions for translation keys while typing `t("")`
+- Context-Aware: Automatically detects translation context from `useTranslation()` calls
+- Translation Preview: Hover over translation keys to see their values
+- Dynamic Updates: Automatically refreshes when translation files change
+- Support for Multiple Formats: Works with nested JSON structures and arrays
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Installation
 
-For example if there is an image subfolder under your extension project workspace:
+1. Open VS Code
+2. Press `Ctrl+P` / `Cmd+P`
+3. Type `ext install l10n-manager`
 
-\!\[feature X\]\(images/feature-x.png\)
+For development, please check [Visual Studio Code: Testing Extensions](https://code.visualstudio.com/api/working-with-extensions/testing-extension)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Configuration
+### Add your translation files through the command palette:
 
-## Requirements
+1. Press `Ctrl+Shift+P` / `Cmd+Shift+P`
+2. Type `L10n: Set Source Files`
+3. Select your source translation JSON files or directories
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

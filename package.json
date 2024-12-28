@@ -9,6 +9,7 @@
     "url": "https://danishshakeel.me"
   },
   "license": "MIT",
+  "icon": "assets/256x256.png",
   "engines": {
     "vscode": "^1.96.0"
   },
