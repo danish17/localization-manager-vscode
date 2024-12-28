@@ -1,7 +1,7 @@
 {
-  "name": "intell10n",
-  "displayName": "intell10n",
-  "description": "Localization management helper for VSCode",
+  "name": "l10n-manager",
+  "displayName": "Localization Manager",
+  "description": "Localization management extension for VSCode",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.96.0"
@@ -9,15 +9,33 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "intell10n.helloWorld",
-        "title": "Hello World"
+        "command": "l10n-manager.setSourceFiles",
+        "title": "L10n: Set Translation Source Files"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Localization Manager",
+      "properties": {
+        "l10n-manager.sourceFiles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "Files or directory containing source translation data"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
