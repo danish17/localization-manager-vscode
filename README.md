@@ -16,6 +16,9 @@ VS Code extension that provides intelligent autocompletion for translation keys 
 <img src="https://github.com/amannn/next-intl/raw/main/media/logo.png" height="32">
 </p>
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d1040fe8-5ed6-43bc-84e5-a506593f6135" alt="Localization Manager VS Code Extension" />
+</p>
 
 ## Features
 - 🔍 Smart Autocompletion: Get suggestions for translation keys while typing t("")
