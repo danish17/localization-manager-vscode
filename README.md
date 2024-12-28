@@ -9,7 +9,9 @@ Localization Manager
 <p align="center">
 VS Code extension that provides intelligent autocompletion for translation keys and previews of translations in your code.
 <br>
-[View on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=danishshakeel.l10n-manager)
+<a href="https://marketplace.visualstudio.com/items?itemName=danishshakeel.l10n-manager">
+View on VS Code Marketplace
+</a>
 </p> 
 
 <p align="center">
