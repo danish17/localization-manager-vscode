@@ -1,5 +1,6 @@
 {
   "name": "l10n-manager",
+  "publisher": "danishshakeel",
   "displayName": "Localization Manager",
   "description": "Localization management extension for VSCode",
   "version": "0.1.0",
