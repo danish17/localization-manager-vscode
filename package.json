@@ -2,7 +2,13 @@
   "name": "l10n-manager",
   "displayName": "Localization Manager",
   "description": "Localization management extension for VSCode",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "author": {
+    "name": "Danish Shakeel",
+    "email": "danishshakeel54@gmail.com",
+    "url": "https://danishshakeel.me"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.96.0"
   },
